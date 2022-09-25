@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+		PERCABANGAN
+	</title>
+</head>
+<body style="background-color: #FFFFCC;">
+	<h2 style="text-align: center; font-family: sans-serif;">PERCABANGAN</h2>
+	
+<!-- IF MULAI -->
+	<h3 style="font-family: sans-serif;">IF</h3>
+	<img = src="https://assets.promediateknologi.com/crop/0x61:986x633/x/photo/2022/07/16/3225867466.jpg" width="300" height="180">
+	<p>Windah ingin membeli PS5 karena lagi ada promo jika belanja minimal Rp 5.000.000 maka akan mendapatkan potongan 20%, lalu winda berangkat ke ATM untuk mengambil uang. Berapakah uang yang harus windah tarik di atm?</p>
+<script>
+	var total_belanja = 6000000
+	var discount;
+	if (total_belanja >5000000) {
+		discount = 0.20;
+	}
+
+	document.write("Uang yang harus ditarik oleh windah adalah ")
+	document.write(total_belanja-(total_belanja * discount)) 
+	</script>
+<p>Bonus uang tunai yang windah dapatkan adalah Rp 4.800.000</p>
+<!-- IF SELESAI -->
+
+<!-- ELSE MULAI -->
+<h3 style="font-family: sans-serif;">ELSE</h3> 
+<h5 style ="font-family: sans-serif;">JIKA ADA KESAMAAN NAMA DALAM PERCAKAPAN MOHON DIMAAFKAN.. TIDAK BERMAKSUD MENYINGGUNG PIHAK MANAPUN</h5>
+<p>Temannya Didi yaitu Dodo mengikuti tes IQ setelah melakukan tes tersebut didapatkan hasil IQ 120, terjadilah percakapan berikut:</p>
+<p>Didi: "Masuk kategori apa IQ mu ini Do?"</p>
+<p>Dodo: "Nggak tau aku di, bentar deh aku bikinin dulu aku cari di google"</p>
+<p>Didi: "Oke"</p>
+<p>Dodo: "Ini di kategori IQ ku, ternyata masuk diatas rata-rata manusia, Alhamdulillah"</p>
+<script>
+	var iq = 120
+
+	if (iq % 90==109) {
+		document.write(iq + " IQ sama dengan rata-rata manusia " );
+	}
+	else{
+		document.write(iq + " IQ diatas rata-rata manusia ");
+	}
+</script>
+<br>
+<img src="https://i.pinimg.com/originals/9f/fa/d8/9ffad86b65708aad972949454c1a3544.jpg" width="300" height="180">
+<p>Didi: "Alhamdullilah ya Do, TAPI KENAPA KAMU PAKAI BIKIN CODINGAN SEGALA DODOOOOO"</p>
+<p>Dodo: "Hehehehe"</p>
+<p>Itulah percakapan yang sangat mengocok perut dari Didi dan Dodo</p>
+<!-- ELSE SELESAI -->
+
+<!-- IF ELSE MULAI -->
+<h3 style="font-family: sans-serif;">IF ELSE</h3>
+<img src="https://asset.kompas.com/crops/23Wq4ObBTIg3SSxPXuEqZQ40xaU=/22x15:1500x1000/750x500/data/photo/2019/10/02/5d9471c53a231.jpg" width="200" height="100">
+<p>Farid ingin nonton film joker, tetapi disana ia melihat tulisan 17+ sedangkan umur farid sekarang masih 6 tahun, apakah ia bisa menonton film joker tersebut?</p>
+<script>
+	var umur = 6;
+
+	if (umur >=0 && umur <=4) {
+		document.write("Masih Balita, Belum Bisa Nonton");
+	}
+	else if (umur >=5 && umur <=16) {
+		document.write("Belum Bisa Deck, Sekolah Aja Dulu Yang Bener");
+	}
+	else if (umur >=17 && umur <=21) {
+		document.write("Silahkan Nonton Paduka");
+	}
+</script>
+<br>
+<img = src="https://i.pinimg.com/originals/25/63/ce/2563cea7bf3a7d684271d3a3cb1865c6.jpg" width="300" height="100">
+<!-- IF ELSE SELESAI -->
+
+<!-- SWITCH MULAI -->
+	<h3 style="font-family: sans-serif;">SWITCH</h3>
+	<img src="https://news.detik.com/x/detail/intermeso/20171111/Orang-Kiri-di-Perang-Surabaya/images/10-november-2-nsydn.png" width="300" height="180"> 
+<P>Di bulan ini terjadi peristiwa bersejarah terjadi yakni merdekanya negara kita tercinta INDONESIA, dahulu kala para pahlawan berjuang untuk mengusir para penjajah mulai dari bangsa Portugis, negeri matador Spanyol, negara kincir angin Belanda, hingga Nippon Pemimpin Asia, semuanya mereka kalahkan tidak semudah membalikkan telapak tangan, jiwa gugur tak terhitung jumlahnya, darah segar merasuk di sela-sela tanah air, tulang belulang berserakan merupakan sebuah pengorbanan yang harus dibayar dengan mahal, demi terwujudnya satu kata yaitu MERDEKA.</P>
+<p>Bulan apakah yang dimaksud dari kata "bulan ini"?</p>
+
+<p>Mohon menjawab dengan awalan huruf besar contoh = "Agustus" dan jangan membuka brainly untuk mencari jawaban</p>
+
+<input id="myInput" type="text" style="border-radius: 5px;">
+
+<button onclick="myFunction()" style="background-color: #333333;color: whitesmoke;border-radius: 5px;">Pencet Ini</button>
+
+<p id="demo"></p>
+
+	<script type="text/javascript">
+		function myFunction() {
+			var text;
+			var bulan = document.getElementById("myInput").value;
+			
+		switch(bulan) {
+			case "Januari":
+				text = "Belum Tepat Yaaaa";
+				break;
+			case "Februari":
+				text = "KAMU SALAH";
+				break;
+			case "Maret":
+				text = "MASIH BELUM BENAR";
+				break;
+			case "April":
+				text = "Terus Berjuang";
+				break;
+			case "Mei":
+				text = "Belum Tepat Yaaaa";
+				break;
+			case "Juni":
+				text = "Terus Berjuang";
+				break;
+			case "Juli":
+				text = "Belum Tepat Yaaaa";
+				break;
+			case "Agustus":
+				text = "NAH PINTERRRR";
+				break;
+			case "September":
+				text = "Belum Tepat Yaaaa";
+				break;
+			case "Oktober":
+				text = "Terus Berjuang";
+				break;
+			case "November":
+				text = "Belum Tepat Yaaaa";
+				break;
+			case "Desember":
+				text = "Terus Berjuang";
+				break;
+			default:
+				text = "Jangan Masukan Yang Aneh-Aneh";
+
+		}
+		document.getElementById("demo").innerHTML = text;
+	}
+</script>
+	<!-- SWITCH SELESAI -->
+	<h4 style="text-align: center;">TERIMA KASIH SUDAH MEMBUKA WEB INI</h4>
+</body>
+</html>
